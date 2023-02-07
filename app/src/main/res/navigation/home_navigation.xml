@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    app:startDestination="@+id/navigation_beranda"
+    android:id="@+id/home_navigation">
+
+    <fragment
+        android:id="@+id/navigation_beranda"
+        android:name="com.bagushikano.sikedatmobileadmin.fragment.home.BerandaFragment"
+        android:label="Beranda"
+        tools:layout="@layout/fragment_beranda" />
+
+    <fragment
+        android:id="@+id/navigation_notification"
+        android:name="com.bagushikano.sikedatmobileadmin.fragment.home.PeristiwaFragment"
+        android:label="Notifikasi"
+        tools:layout="@layout/fragment_peristiwa" />
+
+    <fragment
+        android:id="@+id/navigation_krama"
+        android:name="com.bagushikano.sikedatmobileadmin.fragment.home.KramaFragment"
+        android:label="Krama"
+        tools:layout="@layout/fragment_krama" />
+
+    <fragment
+        android:id="@+id/navigation_pelaporan"
+        android:name="com.bagushikano.sikedatmobileadmin.fragment.home.PelaporanFragment"
+        android:label="Krama"
+        tools:layout="@layout/fragment_pelaporan" />
+
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="com.bagushikano.sikedatmobileadmin.fragment.home.ProfileFragment"
+        android:label="Profile"
+        tools:layout="@layout/fragment_profile" />
+
+</navigation>

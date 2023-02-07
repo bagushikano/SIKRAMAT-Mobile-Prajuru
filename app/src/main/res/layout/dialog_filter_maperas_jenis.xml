@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/maperas_jenis_radio_group"
+        android:checkedButton="@+id/radio_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/maperas_all_type_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Semua Jenis Maperas"/>
+        <RadioButton
+            android:id="@+id/maperas_satu_banjar_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Satu Banjar Adat"/>
+        <RadioButton
+            android:id="@+id/maperas_beda_banjar_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Beda Banjar Adat"/>
+        <RadioButton
+            android:id="@+id/maperas_campuran_masuk_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Campuran Masuk"/>
+        <RadioButton
+            android:id="@+id/maperas_campuran_keluar_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Campuran Keluar"/>
+    </RadioGroup>
+
+</LinearLayout>

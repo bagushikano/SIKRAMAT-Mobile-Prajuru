@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RadioGroup
+        android:id="@+id/perceraian_status_radio_group"
+        android:checkedButton="@+id/radio_button_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioButton
+            android:id="@+id/perceraian_all_status_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Semua Status"/>
+        <RadioButton
+            android:id="@+id/perceraian_status_sah_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Sah"/>
+        <RadioButton
+            android:id="@+id/perceraian_status_draft_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Draft"/>
+        <RadioButton
+            android:id="@+id/perceraian_status_terkonfirmasi_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Terkonfirmasi"/>
+        <RadioButton
+            android:id="@+id/perceraian_status_tidak_terkonfirmasi_radio"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Tidak Terkonfirmasi"/>
+    </RadioGroup>
+</LinearLayout>

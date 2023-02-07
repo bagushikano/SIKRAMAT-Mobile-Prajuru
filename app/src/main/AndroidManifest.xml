@@ -1,0 +1,435 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bagushikano.sikedatmobileadmin">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SikedatMobile"
+        android:usesCleartextTraffic="true">
+        <activity
+            android:name=".activity.NotifikasiHistoryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramaselect.PerceraianSelectKramaMipilPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.PerceraianDataFirstActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapurusa.PerceraianKramaPurusaTetapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapurusa.PerceraianKramaPurusaPasanganKeluarBaliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapurusa.PerceraianKramaPurusaPasanganPindahBanjarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapurusa.PerceraianKramaPurusaPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapradana.PerceraianKramaPradanaPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapradana.PerceraianKramaPradanaKeluarBaliActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapradana.PerceraianKramaPradanaPindahBanjarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramapradana.PerceraianKramaPradanaTetapActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campurankeluar.MaperasCampuranKeluarCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campurankeluar.MaperasCampuranKeluarDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campurankeluar.MaperasCampuranKeluarSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campurankeluar.MaperasCampuranKeluarDataMaperasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campurankeluar.MaperasCampuranKeluarDataOrtuBaruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campurankeluar.MaperasCampuranKeluarDataKramaLamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campurankeluar.PerkawinanCampuranKeluarDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campurankeluar.PerkawinanCampuranKeluarCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campurankeluar.PerkawinanCampuranKeluarSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campurankeluar.PerkawinanCampuranKeluarDataPerkawinanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.report.ReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.report.KramaMipilReportActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.PerceraianDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramaselect.PerceraianSelectKramaTujuanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.kramaselect.PerceraianSelectKramaMipilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.PerceraianCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.PerceraianSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.PerceraianDataPerceraianActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.PerceraianDataAnggotaKeluargaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.PerceraianDataPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.pendataan.PerceraianDataKramaMipilActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perceraian.PerceraianDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.MaperasCampuranMasukDataAnakOrtuLamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.MaperasCampuranMasukSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.MaperasCampuranMasukDataKramaBaruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.MaperasCampuranMasukKramaMipilBaruSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.MaperasCampuranMasukDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.MaperasCampuranMasukDataMaperasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.MaperasCampuranMasukCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.inputdataanak.MaperasCampuranMasukIdentitasAnakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.inputdataanak.MaperasCampuranMasukDataOrangTuaAnakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.inputdataanak.MaperasCampuranMasukDataLainnyaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.campuranmasuk.inputdataanak.MaperasCampuranMasukDataDiriAnakActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarKramaMipilLamaSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarKramaMipilBaruSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarDetailActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.maperas.MaperasDaftarActivity" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarDataMaperasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarDataKramaLamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarDataKramaBaruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.bedabanjar.MaperasBedaBanjarAnakSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarKramaMipilBaruSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarKramaMipilLamaSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarAnakSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.MaperasSelectTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarDataKramaBaruActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarDataKramaLamaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarDataMaperasActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.pendataan.satubanjar.MaperasSatuBanjarCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.maperas.MaperasDaftarActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campurankeluar.PerkawinanCampuranKeluarPradanaSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.PerkawinanCampuranMasukDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.PerkawinanCampuranMasukCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.PerkawinanCampuranMasukSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.PerkawinanCampuranMasukDataPerkawinanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.PerkawinanCampuranMasukStatusKekeluargaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.inputdatapradana.PerkawinanCampuranMasukDataLainnyaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.inputdatapradana.PerkawinanCampuranMasukDataOrangTuaPradanaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.inputdatapradana.PerkawinanCampuranMasukIdentitasPradanaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.inputdatapradana.PerkawinanCampuranMasukDataDiriPradanaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campurankeluar.PerkawinanCampuranKeluarPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.PerkawinanCampuranMasukDataPradanaActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.campuranmasuk.PerkawinanCampuranMasukPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarDetailActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.perkawinan.PerkawinanDaftarActivity" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarDataPerkawinanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarStatusKekeluargaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarPradanaSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarPurusaSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarCompleteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarStatusKekeluargaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarPradanaSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarPurusaSelectActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.PerkawinanDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.PerkawinanDaftarActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.krama.KramaMipilKartuActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name=".activity.kematian.KematianDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.kelahiran.KelahiranDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.bedabanjar.PerkawinanBedaBanjarPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarDataPerkawinanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.PerkawinanStatusKekeluargaanActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.satubanjar.PerkawinanSatuBanjarPasanganActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.perkawinan.pendataan.PerkawinanSelectTypeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.krama.TamiuDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.krama.TamiuDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cacahkrama.CacahTamiuDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cacahkrama.CacahTamiuDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cacahkrama.CacahKramaTamiuDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.krama.KramaTamiuDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.krama.KramaTamiuDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.kematian.KematianAjuanDetailActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.kematian.KematianAjuanActivity" />
+        <activity
+            android:name=".activity.kematian.KematianAjuanActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.kelahiran.KelahiranAjuanActivity"
+            android:exported="false"
+            android:parentActivityName=".activity.HomeActivity" />
+        <activity
+            android:name=".activity.kelahiran.KelahiranAjuanDetailActivity"
+            android:exported="true"
+            android:parentActivityName=".activity.kelahiran.KelahiranAjuanActivity" />
+        <activity
+            android:name=".activity.krama.KramaMipilDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.krama.KramaMipilDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BanjarDinasDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.BanjarAdatDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.DesaAdatSummaryActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cacahkrama.CacahKramaTamiuDaftarActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cacahkrama.CacahKramaMipilDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.cacahkrama.CacahKramaMipilDaftarActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.HomeActivity"
+            android:exported="true"
+            android:theme="@style/home" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:exported="true" />
+        <activity
+            android:name=".activity.ForgotPasswordActivity"
+            android:exported="true" />
+
+        <service
+            android:name=".service.FirebaseMessaging"
+            android:enabled="true"
+            android:exported="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <provider
+            android:name="androidx.core.content.FileProvider"
+            android:authorities="com.bagushikano.sikedatmobileadmin.fileprovider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+    </application>
+
+</manifest>
